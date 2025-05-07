@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Ground
+  - Logic
+  - Mutalga
+  - Neurix
   layers:
   - Default
   - TransparentFX

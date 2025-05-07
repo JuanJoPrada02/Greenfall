@@ -1758,9 +1758,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1dcee7733e750744b2781b4b3c88bc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isDead: 0
   health: 2
   damage: 1
+  isDead: 0
+  attackRange: 0.5
+  attackCooldown: 1
+  patrolRange: 2
+  patrolSpeed: 1
   player: {fileID: 1601948245}
 --- !u!1 &519420028
 GameObject:
@@ -1774,6 +1778,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1899,6 +1904,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c2ca5541b29b8448abfd099d5305df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1601948245}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,6 +2080,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2386514132861697865, guid: 5dd7ca84b2397b245a363dec1f49df9c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9007686024974854685, guid: 5dd7ca84b2397b245a363dec1f49df9c, type: 3}
       propertyPath: m_Name
       value: Enemy1
@@ -2113,9 +2135,9 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601948245}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 768d0af0f52d561449bdd4307dfe785a, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2274,17 +2296,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7ba6dcfdbf32ab4d82c33be5f02709f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
-  jumpForce: 150
+  speed: 5
+  jumpForce: 300
+  bulletPrefab: {fileID: 4829867001265867264, guid: af301e15cc50eaf44b162f1759c9f8cd, type: 3}
+  shotCooldown: 0.25
   groundCheck: {fileID: 1173735527}
   checkRadius: 0.1
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   health: 4
-  isDead: 0
-  bulletPrefab: {fileID: 4829867001265867264, guid: af301e15cc50eaf44b162f1759c9f8cd, type: 3}
-  lastShotTime: 0
 --- !u!1 &1766783377
 GameObject:
   m_ObjectHideFlags: 0

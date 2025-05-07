@@ -2,134 +2,113 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
-   private Animator animator; // Animator component for the player
-    private Rigidbody2D rb2d;
-    public float speed = 2f; // Speed of the player
-    public float jumpForce = 150f; // Jump force of the player
-    private bool isGrounded; // Check if the player is on the ground
-    public Transform groundCheck;
+    [Header("Movimiento")]
+    public float speed = 4f;                   // Velocidad base
+    public float runMultiplier = 1.5f;         // Multiplicador al correr
+    public float jumpForce = 500f;             // Fuerza del salto
+
+    [Header("Disparo")]
+    public GameObject bulletPrefab;            // Prefab de la bala
+    public float shotCooldown = 0.3f;          // Tiempo entre disparos
+
+    [Header("Suelo")]
+    public Transform groundCheck;              // Origen del overlap circle
     public float checkRadius = 0.1f;
     public LayerMask groundLayer;
-    private float horizontalInput; // Variable to store the horizontal input
-    public int health = 4; // Health of the player
-    public bool isDead = false; // Check if the player is dead
-    public GameObject bulletPrefab; // Prefab of the bullet to be instantiated
-    public float lastShotTime;
+
+    [Header("Vida")]
+    public int health = 3;                     // Vida del jugador
+
+    // Componentes internos
+    private Rigidbody2D rb2d;
+    private Animator animator;
+    private Vector3 originalScale;
+    private LogicScript logicScript; // Referencia al script de lógica del juego
+
+    // Estados de input y control
+    private float horizontalInput;
+    private bool runModifier;
+    private bool jumpRequest;
+    private bool isGrounded;
+    private float lastShotTime;
+
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-       
-        rb2d.constraints = RigidbodyConstraints2D.FreezeRotation; // Prevent rotation  
+        rb2d.constraints = RigidbodyConstraints2D.FreezeRotation;
 
-        animator = GetComponent<Animator>(); // Get the Animator component attached to the player
+        animator = GetComponent<Animator>();
+        originalScale = transform.localScale;  // Guardamos el scale del Inspector
+
+        logicScript = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
-
-    // Update is called once per frame
     void Update()
     {
-        float horizontal = 0f;
-
-
+        // 1) Lectura de inputs
         horizontalInput = Input.GetAxisRaw("Horizontal");
-        animator.SetBool("isMoving", horizontalInput != 0.0f); // Set the "Running" parameter in the Animator based on horizontal input
+        runModifier = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+
+        // 2) Animaciones
+        animator.SetBool("isMoving", horizontalInput != 0);
         
 
-
-        if(horizontalInput > 0.0f) {
-            transform.localScale = new Vector3(1, 1, 1); // Flip the player to the right
-        } else if(horizontalInput < 0.0f) {
-            transform.localScale = new Vector3(-1, 1, 1); // Flip the player to the left
-        }
-
-
-        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.A)){
-            horizontal = -1f*speed; // Move left
-        } else if(Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.D)){
-            horizontal = 1f*speed; // Move right
-        } else if (Input.GetKey(KeyCode.A)) {
-            horizontal = -1f; // Move left
-        } else if (Input.GetKey(KeyCode.D)) {
-            horizontal = 1f; // Move right
-        }
-
-
-        transform.Translate(new Vector3(horizontal * Time.deltaTime, 0, 0));
-
-
-       isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
-
-
-    if (Input.GetKeyDown(KeyCode.W) && isGrounded)
-    {
-        Jump();
-    }
-
-
-    Debug.Log("¿Está en el suelo? " + isGrounded);
-
-
-    if (Input.GetKeyDown(KeyCode.Space) && Time.time > lastShotTime * 0.25f) // Check if the space key is pressed
-    {
-        Shoot(); // Call the Shoot method to shoot a bullet
-        Cooldown(); // Call the Cooldown method to start the cooldown
-    }
-
-
-    }
-    public void Jump() {
-        rb2d.AddForce(Vector2.up * jumpForce); // Add force to the player to jump
-    }
-
-
-    public void Shoot() {
-        Vector3 direction;
-        if (transform.localScale.x > 0) // Check the direction the player is facing
+        // 3) Flip sin perder escala
+        if (horizontalInput != 0)
         {
-            direction = Vector3.right; // Right direction
+            float sign = Mathf.Sign(horizontalInput);
+            transform.localScale = new Vector3(
+                originalScale.x * sign,
+                originalScale.y,
+                originalScale.z
+            );
         }
-        else
+
+        // 4) Detección de suelo
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+
+        // 5) Solicitud de salto
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && isGrounded)
+            jumpRequest = true;
+
+        // 6) Disparo con cooldown
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= lastShotTime + shotCooldown)
         {
-            direction = Vector3.left; // Left direction
+            Shoot();
+            lastShotTime = Time.time;
         }
-
-
-        GameObject bullet = Instantiate(bulletPrefab, transform.position + direction * 0.1f, Quaternion.identity); // Instantiate the bullet prefab at the player's position
-        bullet.GetComponent<BulletScript>().SetDirection(direction); // Get the Rigidbody2D component of the bullet
     }
-    public void Cooldown() {
-        lastShotTime = Time.time; // Set the last shot time to the current time
+
+    void FixedUpdate()
+    {
+        // 7) Aplicar movimiento horizontal a través de la física
+        float currentSpeed = speed * (runModifier ? runMultiplier : 1f);
+        rb2d.linearVelocity = new Vector2(horizontalInput * currentSpeed, rb2d.linearVelocityY);
+
+        // 8) Ajustar gravedad si corres (opcional)
+        rb2d.gravityScale = runModifier ? 1.5f : 2f;
+
+        // 9) Ejecutar salto
+        if (jumpRequest)
+        {
+            rb2d.AddForce(Vector2.up * jumpForce);
+            jumpRequest = false;
+        }
+    }
+
+    void Shoot()
+    {
+        Vector3 dir = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
+        Instantiate(bulletPrefab, transform.position + dir * 0.5f, Quaternion.identity)
+            .GetComponent<BulletScript>()
+            .SetDirection(dir);
     }
 
     public void Hit(int damage)
     {
-        // This method is called when the player is hit by an attack
-        health -= damage; // Decrease the player's health by 1
-        Debug.Log("Salud: " + health); // Log the player's health
-        if(health <= 0) // Check if the player's health is less than or equal to 0
-        {
-            isDead = true; // Set the isDead property to true
-            Destroy(gameObject); // Destroy the player game object
-        }
-    }
-   
-
-
-    void OnTriggerEnter2D(Collider2D collision)
-    {
-        EnemyScript enemy = collision.GetComponent<EnemyScript>(); // Get the enemy component from the collided object  
-        if (enemy !=null) // Check if the collided object has the enemy component
-        {
-            health -= 1; // Decrease the player's health by 1
-            Debug.Log("Salud: " + health); // Log the player's health
-            if(health <= 0) // Check if the player's health is less than or equal to 0
-            {
-                isDead = true; // Set the isDead property to true
-                Destroy(gameObject); // Destroy the player game object
-            }
-           
-        }
+        health -= damage;
+        if (health <= 0)
+            Destroy(gameObject);
+            logicScript.GameOver(); // Llama a la función GameOver del LogicScript
     }
 }
-
-

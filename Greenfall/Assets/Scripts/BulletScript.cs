@@ -2,56 +2,52 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    //public AudioClip bulletSound; // Sound effect for the bullet
-    public float speed = 2f; // Speed of the bullet
-    public Rigidbody2D rb; // Rigidbody2D component for the bullet
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public Vector2 direction;
+    [Header("Configuración de Bala")]
+    public float speed = 10f;            // Velocidad en unidades/segundo
+    public float lifeTime = 3f;         // Tiempo antes de autodestruir la bala
+
+    // Dirección establecida al instanciar
+    private Vector2 direction;
+
+    // Componentes internos
+    private Rigidbody2D rb;
+
     void Start()
     {
-        //Camera.main.GetComponent<AudioSource>().PlayOneShot(bulletSound); // Play the bullet sound effect
-        rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component attached to the bullet
+        rb = GetComponent<Rigidbody2D>();
+        // Destruye la bala tras 'lifeTime' segundos
+        Destroy(gameObject, lifeTime);
     }
 
-
-    // Update is called once per frame
     void FixedUpdate()
     {
-        rb.linearVelocityX = direction.x * speed * Time.fixedDeltaTime; // Set the linear velocity of the bullet in the x direction
+        // Asigna la velocidad según la dirección (normalizada)
+        rb.linearVelocity = direction.normalized * speed;
     }
 
-
-    // Function to set the direction of the bullet
+    /// <summary>
+    /// Establece la dirección en la que debe viajar la bala.
+    /// </summary>
     public void SetDirection(Vector2 dir)
     {
-        direction = dir; // Set the direction of the bullet
-       
+        direction = dir;
     }
-
-
-    public void DestroyBullet()
-    {
-        Destroy(gameObject); // Destroy the bullet game object
-    }
-
 
     void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.CompareTag("Ground"))
     {
-        DestroyBullet();
-    }
-
-    EnemyScript enemy = collision.GetComponent<EnemyScript>();
-    if (enemy != null)
-    {
-        enemy.Hit();
-        if (enemy.health <= 0)
+        // Si golpea el suelo, destruye la bala
+        if (collision.CompareTag("Ground"))
         {
-            enemy.isDead = true;
+            Destroy(gameObject);
+            return;
         }
-        DestroyBullet();
-    }
-}
 
+        // Si golpea un enemigo, le aplica daño y destruye la bala
+        EnemyScript enemy = collision.GetComponent<EnemyScript>();
+        if (enemy != null)
+        {
+            enemy.Hit();
+            Destroy(gameObject);
+        }
+    }
 }
