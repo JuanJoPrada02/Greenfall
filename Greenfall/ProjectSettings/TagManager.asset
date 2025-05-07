@@ -9,6 +9,8 @@ TagManager:
   - Logic
   - Mutalga
   - Neurix
+  - Trash
+  - Gota
   layers:
   - Default
   - TransparentFX
