@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
@@ -5,16 +6,20 @@ public class EnemyScript : MonoBehaviour
     [Header("Vida y Daño")]
     public int health;               // Vida del enemigo
     public int damage;               // Daño al jugador
+    public int valorLimpieza; // Valor de limpieza al ser destruido
+    public int dropChance = 2; // Probabilidad de soltar un objeto (1 de 5)
+    public int seed;
 
     [Header("Rangos y Tiempos")]
     public float patrolRange = 3f;     // Distancia máxima desde la posición inicial
     public float patrolSpeed;         // Velocidad de patrulla
     public float attackRange = 1f;    // Rango para iniciar ataque
     public float attackCooldown = 1f; // Segundos entre ataques
+    
 
     [Header("Referencias")]
     public PlayerScript player;      // Referencia al jugador
-
+    public LogicScript logicScript; // Referencia al script de lógica del juego
     // Componentes internos
     private Animator animator;
     private Vector3 originalScale;
@@ -22,6 +27,7 @@ public class EnemyScript : MonoBehaviour
     private float lastAttackTime;
     private Rigidbody2D rb2d;
     private float previousX;         // Para detectar cambio de dirección
+    public GameObject dropPrefab; // Prefab del objeto que puede soltar
 
     void Start()
     {
@@ -44,16 +50,20 @@ public class EnemyScript : MonoBehaviour
             health = 4;
             damage = 2;
             patrolSpeed = 2f;
+            valorLimpieza = 5;
         }
         else if (CompareTag("Neurix"))
         {
             health = 3;
             damage = 1;
             patrolSpeed = 3f;
+            valorLimpieza = 3;
         }
 
         // Guardamos posición inicial en X para Face()
         previousX = transform.position.x;
+
+        logicScript = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
     void Update()
@@ -91,7 +101,7 @@ public class EnemyScript : MonoBehaviour
         float offsetX = Mathf.PingPong(Time.time * patrolSpeed, patrolRange * 2f) - patrolRange;
         // Fijar Y en startPos para que no se caiga
         transform.position = new Vector3(startPos.x + offsetX, startPos.y, transform.position.z);
-        
+
         if (CompareTag("Mutalga"))
             animator.SetBool("isMoving", true);
     }
@@ -128,6 +138,14 @@ public class EnemyScript : MonoBehaviour
 
     private void Die()
     {
+        seed = Random.Range(1, 5); // Generar un número aleatorio entre 1 y 4
+        Debug.Log("Seed: " + seed); // Mostrar el número en la consola
+        // Si el número aleatorio es igual a la probabilidad de soltar objeto, lo soltamos
+        if(seed == dropChance)
+        {
+            Instantiate(dropPrefab, transform.position, Quaternion.identity); // Soltar objeto
+        }
+        logicScript.AddLimpieza(valorLimpieza); // Añadir valor de limpieza al jugador
         Destroy(gameObject, 0.3f);
     }
 
@@ -137,7 +155,10 @@ public class EnemyScript : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             PlayerScript p = collision.GetComponent<PlayerScript>();
-            if (p != null) p.Hit(-1);
+            if (p != null) 
+            {// Infligir daño al jugador
+                p.Hit(damage);
+            }
         }
     }
 }

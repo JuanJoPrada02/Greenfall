@@ -17,13 +17,16 @@ public class PlayerScript : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Vida")]
-    public int health = 3;                     // Vida del jugador
+    public Health healthScript;                     // Vida del jugador
+    public float invulnerabilityTime = 1f; // Tiempo de invulnerabilidad tras recibir daño
+    public float lastTimeHit = -Mathf.Infinity; // Último tiempo que recibió daño
 
     // Componentes internos
     private Rigidbody2D rb2d;
     private Animator animator;
     private Vector3 originalScale;
     private LogicScript logicScript; // Referencia al script de lógica del juego
+    
 
     // Estados de input y control
     private float horizontalInput;
@@ -31,6 +34,7 @@ public class PlayerScript : MonoBehaviour
     private bool jumpRequest;
     private bool isGrounded;
     private float lastShotTime;
+     
 
     void Start()
     {
@@ -41,6 +45,8 @@ public class PlayerScript : MonoBehaviour
         originalScale = transform.localScale;  // Guardamos el scale del Inspector
 
         logicScript = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
+        healthScript = GetComponent<Health>(); // Inicializa el script de salud
+        
     }
 
     void Update()
@@ -106,9 +112,16 @@ public class PlayerScript : MonoBehaviour
 
     public void Hit(int damage)
     {
-        health -= damage;
-        if (health <= 0)
-            Destroy(gameObject);
-            logicScript.GameOver(); // Llama a la función GameOver del LogicScript
+        if (Time.time >= lastTimeHit + invulnerabilityTime)
+        {
+            lastTimeHit = Time.time;
+            healthScript.TakeDamage(damage);
+        }
+        
+    }
+
+    public void AddLife(int value)
+    {
+        healthScript.AddHealth(value); // Añadir vida al jugador
     }
 }
