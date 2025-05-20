@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plataformas op2_0: 1535068627783102801
+      Plataformas op2_1: -7151953312266749616
+      Plataformas op2_2: 1090789078275233713
+      Plataformas op2_3: 8952307645376685946
+      Plataformas op2_4: -982309594152484817
+      Plataformas op2_5: -1505355063115419622
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

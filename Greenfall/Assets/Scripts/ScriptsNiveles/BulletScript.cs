@@ -3,7 +3,7 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     [Header("Configuración de Bala")]
-    public float speed = 20f;            // Velocidad en unidades/segundo
+    public float speed;            // Velocidad en unidades/segundo
     public float lifeTime = 3f;         // Tiempo antes de autodestruir la bala
     public AudioClip shootSound;       // Sonido al disparar
 
@@ -38,6 +38,13 @@ public class BulletScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        PlayerScript p = collision.GetComponent<PlayerScript>();
+    if (p != null)
+    {
+        p.Hit(1); // Aplica daño al jugador
+        Destroy(gameObject);
+    }
+
         // Si golpea el suelo, destruye la bala
         if (collision.CompareTag("Ground"))
         {

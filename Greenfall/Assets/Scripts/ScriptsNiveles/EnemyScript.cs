@@ -11,10 +11,12 @@ public class EnemyScript : MonoBehaviour
     public int seed;
 
     [Header("Rangos y Tiempos")]
-    public float patrolRange = 3f;     // Distancia máxima desde la posición inicial
+    public float patrolRange;     // Distancia máxima desde la posición inicial
     public float patrolSpeed;         // Velocidad de patrulla
-    public float attackRange = 1f;    // Rango para iniciar ataque
-    public float attackCooldown = 1f; // Segundos entre ataques
+    public float attackRange;    // Rango para iniciar ataque
+    public float attackCooldown; // Segundos entre ataques
+    public float bulletSpeed; // Velocidad de la bala
+    public bool invertimos = false; // Si el enemigo patrulla de forma invertida
     
 
     [Header("Referencias")]
@@ -28,6 +30,8 @@ public class EnemyScript : MonoBehaviour
     private Rigidbody2D rb2d;
     private float previousX;         // Para detectar cambio de dirección
     public GameObject dropPrefab; // Prefab del objeto que puede soltar
+    public GameObject bulletPrefab; // Prefab de la bala
+    
 
     void Start()
     {
@@ -35,6 +39,7 @@ public class EnemyScript : MonoBehaviour
         animator = GetComponent<Animator>();
         originalScale = transform.localScale;
         startPos = transform.position;
+        logicScript = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
 
         // Desactivar gravedad si hay Rigidbody2D y congelar rotación
         rb2d = GetComponent<Rigidbody2D>();
@@ -51,6 +56,9 @@ public class EnemyScript : MonoBehaviour
             damage = 2;
             patrolSpeed = 2f;
             valorLimpieza = 5;
+            attackRange = 1f;
+            patrolRange = 3f;
+            attackCooldown = 1f;
         }
         else if (CompareTag("Neurix"))
         {
@@ -58,12 +66,23 @@ public class EnemyScript : MonoBehaviour
             damage = 1;
             patrolSpeed = 3f;
             valorLimpieza = 3;
+            patrolRange = 3f;
+        } 
+        else if (CompareTag("Lizard"))
+        {
+            health = 3;
+            damage = 1;
+            patrolSpeed = 2f;
+            valorLimpieza = 7;
+            attackRange = 8f;
+            patrolRange = 6f;
+            attackCooldown = 1f;
+            bulletSpeed = 10f;
         }
 
         // Guardamos posición inicial en X para Face()
         previousX = transform.position.x;
 
-        logicScript = GameObject.FindGameObjectWithTag("Logic").GetComponent<LogicScript>();
     }
 
     void Update()
@@ -75,8 +94,20 @@ public class EnemyScript : MonoBehaviour
         // Ataque cuando el jugador esté en rango y el cooldown haya pasado
         if (dist <= attackRange && Time.time >= lastAttackTime + attackCooldown)
         {
-            Attack();
-            lastAttackTime = Time.time;
+            if (CompareTag("Lizard"))
+            {
+                animator.SetBool("isMoving", false);
+                Shoot();
+                lastAttackTime = Time.time;
+                animator.SetTrigger("attack");
+                
+            }
+            else if (CompareTag("Mutalga"))
+            {
+                Attack();
+                lastAttackTime = Time.time;
+            }
+            
         }
 
         if (health <= 0) Die();
@@ -98,12 +129,33 @@ public class EnemyScript : MonoBehaviour
 
     private void Patrol()
     {
-        float offsetX = Mathf.PingPong(Time.time * patrolSpeed, patrolRange * 2f) - patrolRange;
-        // Fijar Y en startPos para que no se caiga
-        transform.position = new Vector3(startPos.x + offsetX, startPos.y, transform.position.z);
+        if(CompareTag("Mutalga") || CompareTag("Neurix"))
+        {
+           float offsetX = Mathf.PingPong(Time.time * patrolSpeed, patrolRange * 2f) - patrolRange;
+           // Fijar Y en startPos para que no se caiga
+            transform.position = new Vector3(startPos.x + offsetX, startPos.y, transform.position.z);
+            if(invertimos)
+            {
+                // Invertir la dirección de patrulla
+                transform.position = new Vector3(startPos.x - offsetX, startPos.y, transform.position.z);
+            }
+        } else if(CompareTag("Lizard"))
+        {
+            // Lizard patrulla entre dos puntos
+            float offsetX = Mathf.PingPong(Time.time * patrolSpeed, patrolRange);
+    // Restamos ese offset a startPos.x: mueve de startPos.x a (startPos.x – patrolRange) y de vuelta
+            transform.position = new Vector3(startPos.x - offsetX, startPos.y, transform.position.z);
+            if(invertimos)
+            {
+                transform.position = new Vector3(startPos.x - offsetX, startPos.y, transform.position.z);
+            }
+        } 
 
         if (CompareTag("Mutalga"))
             animator.SetBool("isMoving", true);
+        else if (CompareTag("Lizard"))
+            animator.SetBool("isMoving", true);
+        
     }
 
     private void Face()
@@ -113,11 +165,7 @@ public class EnemyScript : MonoBehaviour
         if (Mathf.Abs(delta) > 0.01f)
         {
             float sign = -Mathf.Sign(delta);
-            transform.localScale = new Vector3(
-                originalScale.x * sign,
-                originalScale.y,
-                originalScale.z
-            );
+            transform.localScale = new Vector3(originalScale.x * sign, originalScale.y, originalScale.z);
         }
     }
 
@@ -125,9 +173,32 @@ public class EnemyScript : MonoBehaviour
     {
         if (CompareTag("Mutalga"))
             animator.SetTrigger("attack");
-
         // Infligir daño al jugador directamente
         player.Hit(damage);
+    }
+
+    private void Shoot()
+    {
+        // Determinar dirección basada en la escala X del sprite,
+        // invertimos el signo para corregir la orientación.
+        float signX = -Mathf.Sign(transform.localScale.x);
+        Vector2 direction = new Vector2(signX, 0f);
+
+        // Generar posición de spawn justo delante del enemigo
+        Vector3 spawnPos = transform.position + (Vector3)direction * 0.5f;
+
+        // Instanciar la bala y establecer su dirección
+        GameObject bullet = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+        BulletScript bs = bullet.GetComponent<BulletScript>();
+
+        bs.speed = bulletSpeed;       
+        bs.SetDirection(direction);
+
+        // Ignorar colisión con el propio enemigo
+        Collider2D bulletCol = bullet.GetComponent<Collider2D>();
+        Collider2D enemyCol = GetComponent<Collider2D>();
+        if (bulletCol != null && enemyCol != null)
+            Physics2D.IgnoreCollision(bulletCol, enemyCol);
     }
 
     public void Hit()

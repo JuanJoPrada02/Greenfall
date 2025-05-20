@@ -37,7 +37,11 @@ public class LogicScript : MonoBehaviour
     public void AddLimpieza(int value)
     {
         score += value; // Sumar el valor de limpieza al score
+        if(score > 100){
+            score = 100; // Limitar el score a 100
+        }
         limpiezaActualText.text = score.ToString(); // Actualiza el texto de limpieza actual
+
     }
 
     public void PauseGame()
@@ -71,5 +75,17 @@ public class LogicScript : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    public void FinishGame()
+    {
+        Time.timeScale = 0f; // Asegurar que el tiempo esté normal
+        //finishPanel.SetActive(true);
+    }
+
+    public void LoadTopDown(string levelName)
+    {
+        Time.timeScale = 1f; // Asegurar que el tiempo esté normal
+        //SceneManager.LoadScene(TopDown);
     }
 }

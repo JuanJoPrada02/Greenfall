@@ -6,11 +6,12 @@ public class PlayerScript : MonoBehaviour
     public float speed = 4f;                   // Velocidad base
     public float runMultiplier = 2f;         // Multiplicador al correr
     public float jumpForce = 500f;             // Fuerza del salto
-    
+   
 
     [Header("Disparo")]
-    public GameObject bulletPrefab;            // Prefab de la bala
+    public BulletScript bulletPrefab;            // Prefab de la bala
     public float shotCooldown = 0.3f;          // Tiempo entre disparos
+    public float bulletSpeed = 20f;            // Velocidad de la bala
 
     [Header("Suelo")]
     public Transform groundCheck;              // Origen del overlap circle
@@ -120,12 +121,23 @@ public class PlayerScript : MonoBehaviour
             rb2d.AddForce(Vector2.up * jumpForce);
             jumpRequest = false;
         }
+
     }
 
     void Shoot()
     {
         Vector3 dir = transform.localScale.x > 0 ? Vector3.right : Vector3.left;
-        Instantiate(bulletPrefab, transform.position + dir * 0.5f, Quaternion.identity).GetComponent<BulletScript>().SetDirection(dir);
+        Vector3 spawnPos = transform.position + dir * 0.5f;
+
+    // Esta sobrecarga de Instantiate devuelve directamente un BulletScript
+        BulletScript bs = Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+        bs.speed = bulletSpeed;
+        bs.SetDirection(dir);
+
+        Collider2D bulletCol = bs.GetComponent<Collider2D>();
+        Collider2D playerCol = GetComponent<Collider2D>();
+        if (bulletCol != null && playerCol != null)
+            Physics2D.IgnoreCollision(bulletCol, playerCol);
     }
 
     public void Hit(int damage)
