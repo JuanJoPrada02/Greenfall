@@ -12,6 +12,9 @@ TagManager:
   - Trash
   - Gota
   - Lizard
+  - FinishLine
+  - Star
+  - StarsManager
   layers:
   - Default
   - TransparentFX

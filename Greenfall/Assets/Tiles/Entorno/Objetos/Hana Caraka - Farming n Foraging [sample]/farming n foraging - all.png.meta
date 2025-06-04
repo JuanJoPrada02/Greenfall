@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: 7c696b43c35da3d46bc5e4690f9d55e7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6585551404894131136
+    second: farming n foraging - all_0
+  - first:
+      213: -6707024634718470045
+    second: farming n foraging - all_1
+  - first:
+      213: 9158861788194017518
+    second: farming n foraging - all_2
+  - first:
+      213: -1015466907377317277
+    second: farming n foraging - all_3
+  - first:
+      213: 1512806090803436940
+    second: farming n foraging - all_4
+  - first:
+      213: -3929210282832488046
+    second: farming n foraging - all_5
+  - first:
+      213: -3034113896253870597
+    second: farming n foraging - all_6
+  - first:
+      213: -3091123446569971342
+    second: farming n foraging - all_7
+  - first:
+      213: 4772069813475469243
+    second: farming n foraging - all_8
+  - first:
+      213: 5207457560552103757
+    second: farming n foraging - all_9
+  - first:
+      213: 1189117107666613236
+    second: farming n foraging - all_10
+  - first:
+      213: -5496348777185519883
+    second: farming n foraging - all_11
+  - first:
+      213: -5219522246467268683
+    second: farming n foraging - all_12
+  - first:
+      213: 724102015133795450
+    second: farming n foraging - all_13
+  - first:
+      213: 5337429432567393782
+    second: farming n foraging - all_14
+  - first:
+      213: -3136020585630797455
+    second: farming n foraging - all_15
+  - first:
+      213: 348903621052336217
+    second: farming n foraging - all_16
+  - first:
+      213: -7456231153854171984
+    second: farming n foraging - all_17
+  - first:
+      213: 1619394600371867396
+    second: farming n foraging - all_18
+  - first:
+      213: -1855139854075433888
+    second: farming n foraging - all_19
+  - first:
+      213: 3108061357506471812
+    second: farming n foraging - all_20
+  - first:
+      213: 207133923391278312
+    second: farming n foraging - all_21
+  - first:
+      213: -1355429578305698445
+    second: farming n foraging - all_22
+  - first:
+      213: -7585542656176070195
+    second: farming n foraging - all_23
+  - first:
+      213: 323479598212464358
+    second: farming n foraging - all_24
+  - first:
+      213: -4047110576769588565
+    second: farming n foraging - all_25
+  - first:
+      213: 9217956809546336304
+    second: farming n foraging - all_26
+  - first:
+      213: 2778509025668051687
+    second: farming n foraging - all_27
+  - first:
+      213: 5985105675714972342
+    second: farming n foraging - all_28
+  - first:
+      213: -362580494190727635
+    second: farming n foraging - all_29
+  - first:
+      213: 2827854742884721712
+    second: farming n foraging - all_30
+  - first:
+      213: -8586257958889293418
+    second: farming n foraging - all_31
+  - first:
+      213: 7543211559624650155
+    second: farming n foraging - all_32
+  - first:
+      213: 6290856397033522727
+    second: farming n foraging - all_33
+  - first:
+      213: 6588595102869629590
+    second: farming n foraging - all_34
+  - first:
+      213: -1706579495374732858
+    second: farming n foraging - all_35
+  - first:
+      213: -1057877287435841027
+    second: farming n foraging - all_36
+  - first:
+      213: -1845381512304527076
+    second: farming n foraging - all_37
+  - first:
+      213: 3510224064230883630
+    second: farming n foraging - all_38
+  - first:
+      213: -8214202196121940364
+    second: farming n foraging - all_39
+  - first:
+      213: -3360573978505492077
+    second: farming n foraging - all_40
+  - first:
+      213: -9104100919300725331
+    second: farming n foraging - all_41
+  - first:
+      213: 2849802567498469265
+    second: farming n foraging - all_42
+  - first:
+      213: 1836275772602421386
+    second: farming n foraging - all_43
+  - first:
+      213: 5368332276037196281
+    second: farming n foraging - all_44
+  - first:
+      213: -5021216437599779441
+    second: farming n foraging - all_45
+  - first:
+      213: 86946625560498807
+    second: farming n foraging - all_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farming n foraging - all_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 79
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c31aca6c14946b50800000000000000
+      internalID: 6585551404894131136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 79
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360cfcb41acdbe2a0800000000000000
+      internalID: -6707024634718470045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee014384540da1f70800000000000000
+      internalID: 9158861788194017518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 85
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a4c985a3658e1f0800000000000000
+      internalID: -1015466907377317277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 84
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8dd268df119ef410800000000000000
+      internalID: 1512806090803436940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 79
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29915fbc014a879c0800000000000000
+      internalID: -3929210282832488046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_6
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 80
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd26bd9c79a4e5d0800000000000000
+      internalID: -3034113896253870597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_7
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 85
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271d0525a9f1a15d0800000000000000
+      internalID: -3091123446569971342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 84
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7e19b363cc93240800000000000000
+      internalID: 4772069813475469243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 84
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f51af9f0b944840800000000000000
+      internalID: 5207457560552103757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 79
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3fece85b7908010800000000000000
+      internalID: 1189117107666613236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 81
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6543678eb09b3b0800000000000000
+      internalID: -5496348777185519883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_12
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 85
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfc11acb288097b0800000000000000
+      internalID: -5219522246467268683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_13
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 85
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74c13142f68c0a00800000000000000
+      internalID: 724102015133795450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_14
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 85
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fde4ed3acb521a40800000000000000
+      internalID: 5337429432567393782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 85
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171f92984ed9a74d0800000000000000
+      internalID: -3136020585630797455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_16
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 47
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9580ca9aefd87d400800000000000000
+      internalID: 348903621052336217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b432573545268890800000000000000
+      internalID: -7456231153854171984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 53
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fc9522fce397610800000000000000
+      internalID: 1619394600371867396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 52
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ce925b1283146e0800000000000000
+      internalID: -1855139854075433888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 52
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487aa42665d022b20800000000000000
+      internalID: 3108061357506471812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec8ba4b433efd200800000000000000
+      internalID: 207133923391278312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375080bdafb803de0800000000000000
+      internalID: -1355429578305698445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc16d06e42dbab690800000000000000
+      internalID: -7585542656176070195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 53
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee3a8f0bfa3d7400800000000000000
+      internalID: 323479598212464358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_25
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 52
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba22ce87f56c5d7c0800000000000000
+      internalID: -4047110576769588565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_26
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 47
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03807e321e2ccef70800000000000000
+      internalID: 9217956809546336304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_27
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 49
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e23928dc3f3f8620800000000000000
+      internalID: 2778509025668051687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_28
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 53
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba4a20d6ed5f0350800000000000000
+      internalID: 5985105675714972342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_29
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 53
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ea64926fad7faf0800000000000000
+      internalID: -362580494190727635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_30
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 53
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0342c02f7ee8e3720800000000000000
+      internalID: 2827854742884721712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_31
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 53
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699788ad0eb77d880800000000000000
+      internalID: -8586257958889293418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_32
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 15
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad2c05a2fedea860800000000000000
+      internalID: 7543211559624650155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7264d2e009c9d4750800000000000000
+      internalID: 6290856397033522727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_34
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a2c6396546f6b50800000000000000
+      internalID: 6588595102869629590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_35
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 21
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c14935adf20158e0800000000000000
+      internalID: -1706579495374732858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_36
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 20
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1de62463aa151f0800000000000000
+      internalID: -1057877287435841027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_37
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 15
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19f304ba43e366e0800000000000000
+      internalID: -1845381512304527076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 15
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21828e3032d6b030800000000000000
+      internalID: 3510224064230883630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_39
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0be29f9a410e80800000000000000
+      internalID: -8214202196121940364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_40
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 20
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39942c985c7dc51d0800000000000000
+      internalID: -3360573978505492077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5e5c1137cb7a180800000000000000
+      internalID: -9104100919300725331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_42
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f0eb316588c8720800000000000000
+      internalID: 2849802567498469265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a809f9f0613cb7910800000000000000
+      internalID: 1836275772602421386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 16
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9167d23c5208a40800000000000000
+      internalID: 5368332276037196281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_45
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f854388e04e015ab0800000000000000
+      internalID: -5021216437599779441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farming n foraging - all_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 20
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772d3face75e43100800000000000000
+      internalID: 86946625560498807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      farming n foraging - all_0: 6585551404894131136
+      farming n foraging - all_1: -6707024634718470045
+      farming n foraging - all_10: 1189117107666613236
+      farming n foraging - all_11: -5496348777185519883
+      farming n foraging - all_12: -5219522246467268683
+      farming n foraging - all_13: 724102015133795450
+      farming n foraging - all_14: 5337429432567393782
+      farming n foraging - all_15: -3136020585630797455
+      farming n foraging - all_16: 348903621052336217
+      farming n foraging - all_17: -7456231153854171984
+      farming n foraging - all_18: 1619394600371867396
+      farming n foraging - all_19: -1855139854075433888
+      farming n foraging - all_2: 9158861788194017518
+      farming n foraging - all_20: 3108061357506471812
+      farming n foraging - all_21: 207133923391278312
+      farming n foraging - all_22: -1355429578305698445
+      farming n foraging - all_23: -7585542656176070195
+      farming n foraging - all_24: 323479598212464358
+      farming n foraging - all_25: -4047110576769588565
+      farming n foraging - all_26: 9217956809546336304
+      farming n foraging - all_27: 2778509025668051687
+      farming n foraging - all_28: 5985105675714972342
+      farming n foraging - all_29: -362580494190727635
+      farming n foraging - all_3: -1015466907377317277
+      farming n foraging - all_30: 2827854742884721712
+      farming n foraging - all_31: -8586257958889293418
+      farming n foraging - all_32: 7543211559624650155
+      farming n foraging - all_33: 6290856397033522727
+      farming n foraging - all_34: 6588595102869629590
+      farming n foraging - all_35: -1706579495374732858
+      farming n foraging - all_36: -1057877287435841027
+      farming n foraging - all_37: -1845381512304527076
+      farming n foraging - all_38: 3510224064230883630
+      farming n foraging - all_39: -8214202196121940364
+      farming n foraging - all_4: 1512806090803436940
+      farming n foraging - all_40: -3360573978505492077
+      farming n foraging - all_41: -9104100919300725331
+      farming n foraging - all_42: 2849802567498469265
+      farming n foraging - all_43: 1836275772602421386
+      farming n foraging - all_44: 5368332276037196281
+      farming n foraging - all_45: -5021216437599779441
+      farming n foraging - all_46: 86946625560498807
+      farming n foraging - all_5: -3929210282832488046
+      farming n foraging - all_6: -3034113896253870597
+      farming n foraging - all_7: -3091123446569971342
+      farming n foraging - all_8: 4772069813475469243
+      farming n foraging - all_9: 5207457560552103757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
@@ -22,6 +23,7 @@ public class PlayerScript : MonoBehaviour
     public Health healthScript;                     // Vida del jugador
     public float invulnerabilityTime = 1f; // Tiempo de invulnerabilidad tras recibir daño
     public float lastTimeHit = -Mathf.Infinity; // Último tiempo que recibió daño
+    public Boolean isHit = false; // Indica si el jugador ha sido golpeado
 
     // Componentes internos
     private Rigidbody2D rb2d;
@@ -36,6 +38,7 @@ public class PlayerScript : MonoBehaviour
     private bool jumpRequest;
     private bool isGrounded;
     private float lastShotTime;
+
      
 
     void Start()
@@ -142,6 +145,7 @@ public class PlayerScript : MonoBehaviour
 
     public void Hit(int damage)
     {
+        isHit = true; // Marcar como golpeado
         if (Time.time >= lastTimeHit + invulnerabilityTime)
         {
             lastTimeHit = Time.time;
