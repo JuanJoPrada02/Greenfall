@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: 514c706058bc79a4a925eb0452e97c3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8229482282390931723
+    second: brown mushroom sheet_0
+  - first:
+      213: -6738918477787128055
+    second: brown mushroom sheet_1
+  - first:
+      213: -3842705429517845612
+    second: brown mushroom sheet_2
+  - first:
+      213: 8737865906722466518
+    second: brown mushroom sheet_3
+  - first:
+      213: 6706850337076056158
+    second: brown mushroom sheet_4
+  - first:
+      213: -761685752908447729
+    second: brown mushroom sheet_5
+  - first:
+      213: -7589151009241335123
+    second: brown mushroom sheet_6
+  - first:
+      213: -4829483882922021266
+    second: brown mushroom sheet_7
+  - first:
+      213: 2798806318267030305
+    second: brown mushroom sheet_8
+  - first:
+      213: 3248794906100213320
+    second: brown mushroom sheet_9
+  - first:
+      213: 4675495304763772844
+    second: brown mushroom sheet_10
+  - first:
+      213: -985747965054662671
+    second: brown mushroom sheet_11
+  - first:
+      213: -5795354049654620510
+    second: brown mushroom sheet_12
+  - first:
+      213: -1326404232563700553
+    second: brown mushroom sheet_13
+  - first:
+      213: 7702202908126362781
+    second: brown mushroom sheet_14
+  - first:
+      213: 1297627794149231627
+    second: brown mushroom sheet_15
+  - first:
+      213: -3091661510272891645
+    second: brown mushroom sheet_16
+  - first:
+      213: -4942751729688003004
+    second: brown mushroom sheet_17
+  - first:
+      213: -3997989454511932807
+    second: brown mushroom sheet_18
+  - first:
+      213: 176096391311294451
+    second: brown mushroom sheet_19
+  - first:
+      213: 3678481767262464756
+    second: brown mushroom sheet_20
+  - first:
+      213: -6440180231126754651
+    second: brown mushroom sheet_21
+  - first:
+      213: -4692559057234159461
+    second: brown mushroom sheet_22
+  - first:
+      213: 2499215550243831005
+    second: brown mushroom sheet_23
+  - first:
+      213: -7664160655824766889
+    second: brown mushroom sheet_24
+  - first:
+      213: -3728124007922065305
+    second: brown mushroom sheet_25
+  - first:
+      213: 6488983129318983937
+    second: brown mushroom sheet_26
+  - first:
+      213: 6853911926714974596
+    second: brown mushroom sheet_27
+  - first:
+      213: 8869172819412877366
+    second: brown mushroom sheet_28
+  - first:
+      213: -8121994751009913423
+    second: brown mushroom sheet_29
+  - first:
+      213: 3396931823964463779
+    second: brown mushroom sheet_30
+  - first:
+      213: 8617426611119635923
+    second: brown mushroom sheet_31
+  - first:
+      213: -2510325374366064958
+    second: brown mushroom sheet_32
+  - first:
+      213: -1067017678237386435
+    second: brown mushroom sheet_33
+  - first:
+      213: -4272936750899279474
+    second: brown mushroom sheet_34
+  - first:
+      213: -3530073408427242937
+    second: brown mushroom sheet_35
+  - first:
+      213: 6376913973900774049
+    second: brown mushroom sheet_36
+  - first:
+      213: -4040865337975105042
+    second: brown mushroom sheet_37
+  - first:
+      213: 2338893074185250388
+    second: brown mushroom sheet_38
+  - first:
+      213: -1394014353236351624
+    second: brown mushroom sheet_39
+  - first:
+      213: -1813910885671655782
+    second: brown mushroom sheet_40
+  - first:
+      213: 6151421383017383990
+    second: brown mushroom sheet_41
+  - first:
+      213: 8902289449610008477
+    second: brown mushroom sheet_42
+  - first:
+      213: 2966076663146005453
+    second: brown mushroom sheet_43
+  - first:
+      213: -6419033122581964679
+    second: brown mushroom sheet_44
+  - first:
+      213: 6759988954217907261
+    second: brown mushroom sheet_45
+  - first:
+      213: -1612866186062883367
+    second: brown mushroom sheet_46
+  - first:
+      213: 7080093104631851478
+    second: brown mushroom sheet_47
+  - first:
+      213: -6385105129509668436
+    second: brown mushroom sheet_48
+  - first:
+      213: 1481173457439463587
+    second: brown mushroom sheet_49
+  - first:
+      213: 9154157343695966239
+    second: brown mushroom sheet_50
+  - first:
+      213: -6954127617553852697
+    second: brown mushroom sheet_51
+  - first:
+      213: -7934214198644669655
+    second: brown mushroom sheet_52
+  - first:
+      213: 8050359280466016610
+    second: brown mushroom sheet_53
+  - first:
+      213: 869668952816137153
+    second: brown mushroom sheet_54
+  - first:
+      213: -6619395621795178736
+    second: brown mushroom sheet_55
+  - first:
+      213: 4713645369113059572
+    second: brown mushroom sheet_56
+  - first:
+      213: -6259558248906387182
+    second: brown mushroom sheet_57
+  - first:
+      213: 3406650985267522613
+    second: brown mushroom sheet_58
+  - first:
+      213: -875554669650523648
+    second: brown mushroom sheet_59
+  - first:
+      213: -4486535875745656103
+    second: brown mushroom sheet_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brown mushroom sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09484fb88ef43270800000000000000
+      internalID: 8229482282390931723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f9e29495d8a72a0800000000000000
+      internalID: -6738918477787128055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bbf1975c7fbaac0800000000000000
+      internalID: -3842705429517845612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da60393fb2234970800000000000000
+      internalID: 8737865906722466518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50902fd8d4831d50800000000000000
+      internalID: 6706850337076056158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 100
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f008a63e7d2fd65f0800000000000000
+      internalID: -761685752908447729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa7f5bbd5beda690800000000000000
+      internalID: -7589151009241335123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e65f50ff93afcb0800000000000000
+      internalID: -4829483882922021266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bdc6b848b57d620800000000000000
+      internalID: 2798806318267030305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846a33611c9061d20800000000000000
+      internalID: 3248794906100213320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf83753532b2e040800000000000000
+      internalID: 4675495304763772844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 79
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f74ad0d27be152f0800000000000000
+      internalID: -985747965054662671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aef6ba6234c29fa0800000000000000
+      internalID: -5795354049654620510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 74
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc4779c06aa79de0800000000000000
+      internalID: -1326404232563700553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c3ad6acb8b3ea60800000000000000
+      internalID: 7702202908126362781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c40f88a99120210800000000000000
+      internalID: 1297627794149231627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305cf6a9c363815d0800000000000000
+      internalID: -3091661510272891645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ebffa5d71d76bb0800000000000000
+      internalID: -4942751729688003004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97afe0cf5c94488c0800000000000000
+      internalID: -3997989454511932807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff76522cbe917200800000000000000
+      internalID: 176096391311294451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa2e6a8da79c0330800000000000000
+      internalID: 3678481767262464756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa523a8332ef96a0800000000000000
+      internalID: -6440180231126754651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 74
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b981402566ea0eeb0800000000000000
+      internalID: -4692559057234159461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc7a613d4ffea220800000000000000
+      internalID: 2499215550243831005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7583a007d7e63a590800000000000000
+      internalID: -7664160655824766889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760233d97fa034cc0800000000000000
+      internalID: -3728124007922065305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1098f88a6cf7d0a50800000000000000
+      internalID: 6488983129318983937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481c8a1759cfd1f50800000000000000
+      internalID: 6853911926714974596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63087a830b1a51b70800000000000000
+      internalID: 8869172819412877366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5877e5ec0e84f80800000000000000
+      internalID: -8121994751009913423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a22f950f73542f20800000000000000
+      internalID: 3396931823964463779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddb8c188df379770800000000000000
+      internalID: 8617426611119635923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_32
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 63
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ced24e4f58892dd0800000000000000
+      internalID: -2510325374366064958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 64
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39399f23113131f0800000000000000
+      internalID: -1067017678237386435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89cfeef9aa73b4c0800000000000000
+      internalID: -4272936750899279474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a44ab20f8a20fc0800000000000000
+      internalID: -3530073408427242937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa849119795f7850800000000000000
+      internalID: 6376913973900774049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee91ec07266fbe7c0800000000000000
+      internalID: -4040865337975105042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456ee66ebda657020800000000000000
+      internalID: 2338893074185250388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8752d8fd45777ace0800000000000000
+      internalID: -1394014353236351624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96a355f8a1b3d6e0800000000000000
+      internalID: -1813910885671655782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6384e7ef72d3e5550800000000000000
+      internalID: 6151421383017383990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 15
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9756bb86194b8b70800000000000000
+      internalID: 8902289449610008477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_43
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3c46b920f992920800000000000000
+      internalID: 2966076663146005453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978190f62630be6a0800000000000000
+      internalID: -6419033122581964679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3409bd432e40dd50800000000000000
+      internalID: 6759988954217907261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d59b75cfb2fd99e0800000000000000
+      internalID: -1612866186062883367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9264eaa2b814260800000000000000
+      internalID: 7080093104631851478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_48
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca93d06e6bc8367a0800000000000000
+      internalID: -6385105129509668436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a89a65796f2e8410800000000000000
+      internalID: 1481173457439463587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1018017a991a0f70800000000000000
+      internalID: 9154157343695966239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e618f0c6c9fd7f90800000000000000
+      internalID: -6954127617553852697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9238ced393204e190800000000000000
+      internalID: -7934214198644669655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_53
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269327aec1f98bf60800000000000000
+      internalID: 8050359280466016610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3bacc0e4fa11c00800000000000000
+      internalID: 869668952816137153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_55
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0175f17c0ce2324a0800000000000000
+      internalID: -6619395621795178736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0262f3d7b3a6140800000000000000
+      internalID: 4713645369113059572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211911befe49129a0800000000000000
+      internalID: -6259558248906387182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cea9a950bd64f20800000000000000
+      internalID: 3406650985267522613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_59
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00acb06baa769d3f0800000000000000
+      internalID: -875554669650523648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown mushroom sheet_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d25226446f9cb1c0800000000000000
+      internalID: -4486535875745656103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brown mushroom sheet_0: 8229482282390931723
+      brown mushroom sheet_1: -6738918477787128055
+      brown mushroom sheet_10: 4675495304763772844
+      brown mushroom sheet_11: -985747965054662671
+      brown mushroom sheet_12: -5795354049654620510
+      brown mushroom sheet_13: -1326404232563700553
+      brown mushroom sheet_14: 7702202908126362781
+      brown mushroom sheet_15: 1297627794149231627
+      brown mushroom sheet_16: -3091661510272891645
+      brown mushroom sheet_17: -4942751729688003004
+      brown mushroom sheet_18: -3997989454511932807
+      brown mushroom sheet_19: 176096391311294451
+      brown mushroom sheet_2: -3842705429517845612
+      brown mushroom sheet_20: 3678481767262464756
+      brown mushroom sheet_21: -6440180231126754651
+      brown mushroom sheet_22: -4692559057234159461
+      brown mushroom sheet_23: 2499215550243831005
+      brown mushroom sheet_24: -7664160655824766889
+      brown mushroom sheet_25: -3728124007922065305
+      brown mushroom sheet_26: 6488983129318983937
+      brown mushroom sheet_27: 6853911926714974596
+      brown mushroom sheet_28: 8869172819412877366
+      brown mushroom sheet_29: -8121994751009913423
+      brown mushroom sheet_3: 8737865906722466518
+      brown mushroom sheet_30: 3396931823964463779
+      brown mushroom sheet_31: 8617426611119635923
+      brown mushroom sheet_32: -2510325374366064958
+      brown mushroom sheet_33: -1067017678237386435
+      brown mushroom sheet_34: -4272936750899279474
+      brown mushroom sheet_35: -3530073408427242937
+      brown mushroom sheet_36: 6376913973900774049
+      brown mushroom sheet_37: -4040865337975105042
+      brown mushroom sheet_38: 2338893074185250388
+      brown mushroom sheet_39: -1394014353236351624
+      brown mushroom sheet_4: 6706850337076056158
+      brown mushroom sheet_40: -1813910885671655782
+      brown mushroom sheet_41: 6151421383017383990
+      brown mushroom sheet_42: 8902289449610008477
+      brown mushroom sheet_43: 2966076663146005453
+      brown mushroom sheet_44: -6419033122581964679
+      brown mushroom sheet_45: 6759988954217907261
+      brown mushroom sheet_46: -1612866186062883367
+      brown mushroom sheet_47: 7080093104631851478
+      brown mushroom sheet_48: -6385105129509668436
+      brown mushroom sheet_49: 1481173457439463587
+      brown mushroom sheet_5: -761685752908447729
+      brown mushroom sheet_50: 9154157343695966239
+      brown mushroom sheet_51: -6954127617553852697
+      brown mushroom sheet_52: -7934214198644669655
+      brown mushroom sheet_53: 8050359280466016610
+      brown mushroom sheet_54: 869668952816137153
+      brown mushroom sheet_55: -6619395621795178736
+      brown mushroom sheet_56: 4713645369113059572
+      brown mushroom sheet_57: -6259558248906387182
+      brown mushroom sheet_58: 3406650985267522613
+      brown mushroom sheet_59: -875554669650523648
+      brown mushroom sheet_6: -7589151009241335123
+      brown mushroom sheet_60: -4486535875745656103
+      brown mushroom sheet_7: -4829483882922021266
+      brown mushroom sheet_8: 2798806318267030305
+      brown mushroom sheet_9: 3248794906100213320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

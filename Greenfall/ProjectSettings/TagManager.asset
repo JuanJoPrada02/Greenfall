@@ -2,16 +2,27 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - Ground
+  - Logic
+  - Mutalga
+  - Neurix
+  - Trash
+  - Gota
+  - Lizard
+  - FinishLine
+  - Star
+  - StarsManager
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -41,3 +52,26 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 658607203
+    locked: 0
+  - name: Suelo
+    uniqueID: 1462085317
+    locked: 0
+  - name: CaminarFrente
+    uniqueID: 2748329121
+    locked: 0
+  - name: Colision
+    uniqueID: 1401929753
+    locked: 0
+  - name: Jugador
+    uniqueID: 121374965
+    locked: 0
+  - name: CaminarAtras
+    uniqueID: 3211787097
+    locked: 0
+  - name: Decor
+    uniqueID: 2052254355
+    locked: 0
+  m_RenderingLayers:
+  - Default
