@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: d487909a70cd45b4cbcde6ffc2418409
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6021837282654648069
+    second: blue mushroom sheet_0
+  - first:
+      213: -1926835502489937763
+    second: blue mushroom sheet_1
+  - first:
+      213: 6058049968507051316
+    second: blue mushroom sheet_2
+  - first:
+      213: 8293112846611518032
+    second: blue mushroom sheet_3
+  - first:
+      213: -1711114951075647971
+    second: blue mushroom sheet_4
+  - first:
+      213: 5267522137400064201
+    second: blue mushroom sheet_5
+  - first:
+      213: -9177209028247689701
+    second: blue mushroom sheet_6
+  - first:
+      213: 3000056364283108473
+    second: blue mushroom sheet_7
+  - first:
+      213: 7114504952395838923
+    second: blue mushroom sheet_8
+  - first:
+      213: 3755033605077442626
+    second: blue mushroom sheet_9
+  - first:
+      213: 2124246614160109619
+    second: blue mushroom sheet_10
+  - first:
+      213: 8349810223479737732
+    second: blue mushroom sheet_11
+  - first:
+      213: -8537169162258143928
+    second: blue mushroom sheet_12
+  - first:
+      213: 7255332740100478398
+    second: blue mushroom sheet_13
+  - first:
+      213: 1415538168787852049
+    second: blue mushroom sheet_14
+  - first:
+      213: -3769782148780756733
+    second: blue mushroom sheet_15
+  - first:
+      213: 8803094346827372291
+    second: blue mushroom sheet_16
+  - first:
+      213: -4112734722276640297
+    second: blue mushroom sheet_17
+  - first:
+      213: 8496787987815609214
+    second: blue mushroom sheet_18
+  - first:
+      213: -3065098901342332248
+    second: blue mushroom sheet_19
+  - first:
+      213: 3534922117876811557
+    second: blue mushroom sheet_20
+  - first:
+      213: 3043135521251359666
+    second: blue mushroom sheet_21
+  - first:
+      213: -6092055237445619733
+    second: blue mushroom sheet_22
+  - first:
+      213: -7966812943173596627
+    second: blue mushroom sheet_23
+  - first:
+      213: -6559068906495943021
+    second: blue mushroom sheet_24
+  - first:
+      213: -7700504977381027407
+    second: blue mushroom sheet_25
+  - first:
+      213: 7622286858371630907
+    second: blue mushroom sheet_26
+  - first:
+      213: 2677486920559644785
+    second: blue mushroom sheet_27
+  - first:
+      213: -8720103115857120669
+    second: blue mushroom sheet_28
+  - first:
+      213: -1698969613648036909
+    second: blue mushroom sheet_29
+  - first:
+      213: 4232897491442338495
+    second: blue mushroom sheet_30
+  - first:
+      213: 7675111358578245152
+    second: blue mushroom sheet_31
+  - first:
+      213: 6439089817789805429
+    second: blue mushroom sheet_32
+  - first:
+      213: -4041954279286275949
+    second: blue mushroom sheet_33
+  - first:
+      213: 7750186701052975511
+    second: blue mushroom sheet_34
+  - first:
+      213: 6890180166175197103
+    second: blue mushroom sheet_35
+  - first:
+      213: -319994508875108615
+    second: blue mushroom sheet_36
+  - first:
+      213: -7820766837540302512
+    second: blue mushroom sheet_37
+  - first:
+      213: 8909454148379961582
+    second: blue mushroom sheet_38
+  - first:
+      213: -5970932025775155792
+    second: blue mushroom sheet_39
+  - first:
+      213: 6865951054862733061
+    second: blue mushroom sheet_40
+  - first:
+      213: -4273903878091174283
+    second: blue mushroom sheet_41
+  - first:
+      213: -7369946712840658397
+    second: blue mushroom sheet_42
+  - first:
+      213: -5195027835914547627
+    second: blue mushroom sheet_43
+  - first:
+      213: -5756486422921996950
+    second: blue mushroom sheet_44
+  - first:
+      213: -8598139934695520357
+    second: blue mushroom sheet_45
+  - first:
+      213: -4030644294704183914
+    second: blue mushroom sheet_46
+  - first:
+      213: 3064242311230689078
+    second: blue mushroom sheet_47
+  - first:
+      213: 508635980289220089
+    second: blue mushroom sheet_48
+  - first:
+      213: 6041281709432167477
+    second: blue mushroom sheet_49
+  - first:
+      213: 7213477640246154665
+    second: blue mushroom sheet_50
+  - first:
+      213: 7249762615561168596
+    second: blue mushroom sheet_51
+  - first:
+      213: -5393600026962739596
+    second: blue mushroom sheet_52
+  - first:
+      213: -830439713829500728
+    second: blue mushroom sheet_53
+  - first:
+      213: 2015672845754520022
+    second: blue mushroom sheet_54
+  - first:
+      213: 1765426382650431437
+    second: blue mushroom sheet_55
+  - first:
+      213: 7811234913659594364
+    second: blue mushroom sheet_56
+  - first:
+      213: -6656492837797146935
+    second: blue mushroom sheet_57
+  - first:
+      213: -2592196462507377458
+    second: blue mushroom sheet_58
+  - first:
+      213: -2527525239073942257
+    second: blue mushroom sheet_59
+  - first:
+      213: -6073836810629369129
+    second: blue mushroom sheet_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blue mushroom sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88a2085e22e6ca0800000000000000
+      internalID: -6021837282654648069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98d97db1518245e0800000000000000
+      internalID: -1926835502489937763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_2
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 111
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ddd647954821450800000000000000
+      internalID: 6058049968507051316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 111
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0521288f13e071370800000000000000
+      internalID: 8293112846611518032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ea6439406e048e0800000000000000
+      internalID: -1711114951075647971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_5
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 100
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8bc36b97ff91940800000000000000
+      internalID: 5267522137400064201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16e9c1030104a080800000000000000
+      internalID: -9177209028247689701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_7
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 111
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c9e3b4e5752a920800000000000000
+      internalID: 3000056364283108473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_8
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 95
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5bf485f8ccbb260800000000000000
+      internalID: 7114504952395838923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240ab463b2f8c1430800000000000000
+      internalID: 3755033605077442626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_10
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 95
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330f6547a07da7d10800000000000000
+      internalID: 2124246614160109619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 79
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d4f68b82c70e370800000000000000
+      internalID: 8349810223479737732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_12
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 79
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8452f28f0e1e58980800000000000000
+      internalID: -8537169162258143928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_13
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 74
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb553fccfae10b460800000000000000
+      internalID: 7255332740100478398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_14
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 95
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b5b94f67005a310800000000000000
+      internalID: 1415538168787852049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301705ddb1b0fabc0800000000000000
+      internalID: -3769782148780756733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30715eaeaafda2a70800000000000000
+      internalID: 8803094346827372291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_17
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9394f6f81ace6c0800000000000000
+      internalID: -4112734722276640297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e733e8138a7aae570800000000000000
+      internalID: 8496787987815609214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aadc00f9c49675d0800000000000000
+      internalID: -3065098901342332248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52708b8ffe09e0130800000000000000
+      internalID: 3534922117876811557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb7f8322a36b3a20800000000000000
+      internalID: 3043135521251359666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_22
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 74
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befeef3e90ca47ba0800000000000000
+      internalID: -6092055237445619733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a472296d1307190800000000000000
+      internalID: -7966812943173596627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39edffab49189f4a0800000000000000
+      internalID: -6559068906495943021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_25
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b19318a58f422590800000000000000
+      internalID: -7700504977381027407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 36
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b378e59538dc7c960800000000000000
+      internalID: 7622286858371630907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_27
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17056b61b28582520800000000000000
+      internalID: 2677486920559644785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 31
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3623f8eca68fbf680800000000000000
+      internalID: -8720103115857120669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_29
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 63
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db735e432c0c68e0800000000000000
+      internalID: -1698969613648036909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba001477d54eba30800000000000000
+      internalID: 4232897491442338495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 64
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e3f9bbd19738a60800000000000000
+      internalID: 7675111358578245152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_32
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 63
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5733232d21e3c5950800000000000000
+      internalID: 6439089817789805429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_33
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 64
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39085c88ff718e7c0800000000000000
+      internalID: -4041954279286275949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 31
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799183b0eb13e8b60800000000000000
+      internalID: 7750186701052975511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7805bfa56de9f50800000000000000
+      internalID: 6890180166175197103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_36
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe6c6880b62f8bf0800000000000000
+      internalID: -319994508875108615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 47
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05151495ffd077390800000000000000
+      internalID: -7820766837540302512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 31
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee861d8f75db4ab70800000000000000
+      internalID: 8909454148379961582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b51ba935fcf22da0800000000000000
+      internalID: -5970932025775155792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 31
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fcf466b12c84f50800000000000000
+      internalID: 6865951054862733061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e0636211b00b4c0800000000000000
+      internalID: -4273903878091174283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_42
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 15
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32223972380b8b990800000000000000
+      internalID: -7369946712840658397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_43
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e0c0a25bd87e7b0800000000000000
+      internalID: -5195027835914547627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 31
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a651067f81adc10b0800000000000000
+      internalID: -5756486422921996950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b978f57c8454da880800000000000000
+      internalID: -8598139934695520357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_46
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695c3368e564018c0800000000000000
+      internalID: -4030644294704183914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_47
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f80a2a520668a20800000000000000
+      internalID: 3064242311230689078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_48
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd1f1daab90f0700800000000000000
+      internalID: 508635980289220089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_49
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 3
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cd4c6e4b1f6d350800000000000000
+      internalID: 6041281709432167477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 15
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a55816f1bb6b1460800000000000000
+      internalID: 7213477640246154665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_51
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 10
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d62e6e10b45c9460800000000000000
+      internalID: 7249762615561168596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_52
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e395c1a551625b0800000000000000
+      internalID: -5393600026962739596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_53
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8c0d9ea7fa974f0800000000000000
+      internalID: -830439713829500728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1599216cb19fb10800000000000000
+      internalID: 2015672845754520022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_55
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc75bfef0fd008810800000000000000
+      internalID: 1765426382650431437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c762fcda4c4176c60800000000000000
+      internalID: 7811234913659594364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 5
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4b2918036f93a0800000000000000
+      internalID: -6656492837797146935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_58
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc39382d0ba60cd0800000000000000
+      internalID: -2592196462507377458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_59
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05d92cbf2d6cecd0800000000000000
+      internalID: -2527525239073942257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blue mushroom sheet_60
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2bebee99565bba0800000000000000
+      internalID: -6073836810629369129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blue mushroom sheet_0: -6021837282654648069
+      blue mushroom sheet_1: -1926835502489937763
+      blue mushroom sheet_10: 2124246614160109619
+      blue mushroom sheet_11: 8349810223479737732
+      blue mushroom sheet_12: -8537169162258143928
+      blue mushroom sheet_13: 7255332740100478398
+      blue mushroom sheet_14: 1415538168787852049
+      blue mushroom sheet_15: -3769782148780756733
+      blue mushroom sheet_16: 8803094346827372291
+      blue mushroom sheet_17: -4112734722276640297
+      blue mushroom sheet_18: 8496787987815609214
+      blue mushroom sheet_19: -3065098901342332248
+      blue mushroom sheet_2: 6058049968507051316
+      blue mushroom sheet_20: 3534922117876811557
+      blue mushroom sheet_21: 3043135521251359666
+      blue mushroom sheet_22: -6092055237445619733
+      blue mushroom sheet_23: -7966812943173596627
+      blue mushroom sheet_24: -6559068906495943021
+      blue mushroom sheet_25: -7700504977381027407
+      blue mushroom sheet_26: 7622286858371630907
+      blue mushroom sheet_27: 2677486920559644785
+      blue mushroom sheet_28: -8720103115857120669
+      blue mushroom sheet_29: -1698969613648036909
+      blue mushroom sheet_3: 8293112846611518032
+      blue mushroom sheet_30: 4232897491442338495
+      blue mushroom sheet_31: 7675111358578245152
+      blue mushroom sheet_32: 6439089817789805429
+      blue mushroom sheet_33: -4041954279286275949
+      blue mushroom sheet_34: 7750186701052975511
+      blue mushroom sheet_35: 6890180166175197103
+      blue mushroom sheet_36: -319994508875108615
+      blue mushroom sheet_37: -7820766837540302512
+      blue mushroom sheet_38: 8909454148379961582
+      blue mushroom sheet_39: -5970932025775155792
+      blue mushroom sheet_4: -1711114951075647971
+      blue mushroom sheet_40: 6865951054862733061
+      blue mushroom sheet_41: -4273903878091174283
+      blue mushroom sheet_42: -7369946712840658397
+      blue mushroom sheet_43: -5195027835914547627
+      blue mushroom sheet_44: -5756486422921996950
+      blue mushroom sheet_45: -8598139934695520357
+      blue mushroom sheet_46: -4030644294704183914
+      blue mushroom sheet_47: 3064242311230689078
+      blue mushroom sheet_48: 508635980289220089
+      blue mushroom sheet_49: 6041281709432167477
+      blue mushroom sheet_5: 5267522137400064201
+      blue mushroom sheet_50: 7213477640246154665
+      blue mushroom sheet_51: 7249762615561168596
+      blue mushroom sheet_52: -5393600026962739596
+      blue mushroom sheet_53: -830439713829500728
+      blue mushroom sheet_54: 2015672845754520022
+      blue mushroom sheet_55: 1765426382650431437
+      blue mushroom sheet_56: 7811234913659594364
+      blue mushroom sheet_57: -6656492837797146935
+      blue mushroom sheet_58: -2592196462507377458
+      blue mushroom sheet_59: -2527525239073942257
+      blue mushroom sheet_6: -9177209028247689701
+      blue mushroom sheet_60: -6073836810629369129
+      blue mushroom sheet_7: 3000056364283108473
+      blue mushroom sheet_8: 7114504952395838923
+      blue mushroom sheet_9: 3755033605077442626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
