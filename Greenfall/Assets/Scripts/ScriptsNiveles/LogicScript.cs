@@ -71,7 +71,7 @@ public class LogicScript : MonoBehaviour
 
     public void MensajeMotivador()
     {
-        int num_mensajeMotivador = Random.Range(1, 5); // Genera un número aleatorio entre 1 y 4
+        int num_mensajeMotivador = Random.Range(1, 7); // Genera un número aleatorio entre 1 y 4
         switch (num_mensajeMotivador)
         {
             case 1:
@@ -85,6 +85,12 @@ public class LogicScript : MonoBehaviour
                 break;
             case 4:
                 MotivacionText.text = "¡No te rindas, pronto lo vas a lograr!";
+                break;
+            case 5:
+                MotivacionText.text = "Tip: Saltar mientras corres te hace saltar mas alto";
+                break;
+            case 6:
+                MotivacionText.text = "Tip: Saltar mientras corres te hace saltar mas alto";
                 break;
         }
 
